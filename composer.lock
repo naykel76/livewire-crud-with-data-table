@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be26154003c33df0ca2749cd116e8a08",
+    "content-hash": "80412f9ef400980de72485c5fd486685",
     "packages": [
         {
             "name": "brick/math",
@@ -2120,11 +2120,17 @@
         },
         {
             "name": "naykel/gotime",
-            "version": "dev-master",
+            "version": "v0.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naykel76/gotime.git",
+                "reference": "7dfc5b8dfa49a5840adf98417276cc096f378368"
+            },
             "dist": {
-                "type": "path",
-                "url": "C:/Users/nayke/sites/nk_packages/gotime",
-                "reference": "e52f46885f696f41f0d412d7f6043ea50d6ca183"
+                "type": "zip",
+                "url": "https://api.github.com/repos/naykel76/gotime/zipball/7dfc5b8dfa49a5840adf98417276cc096f378368",
+                "reference": "7dfc5b8dfa49a5840adf98417276cc096f378368",
+                "shasum": ""
             },
             "require": {
                 "livewire/livewire": "^3.3",
@@ -2147,11 +2153,12 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
+                    "Routebuilder\\": "Naykel\\Gotime\\Routebuilder",
                     "Naykel\\Gotime\\": "src/",
-                    "Naykel\\Gotime\\Enums\\": "src/Enums",
-                    "Routebuilder\\": "Naykel\\Gotime\\Routebuilder"
+                    "Naykel\\Gotime\\Enums\\": "src/Enums"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2165,13 +2172,14 @@
             "description": "Starter package for NayKel Laravel applications",
             "homepage": "https://naykel.com.au",
             "keywords": [
-                "Laravel",
-                "Naykel"
+                "Naykel",
+                "laravel"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/naykel76/gotime/issues",
+                "source": "https://github.com/naykel76/gotime/tree/v0.16.0"
+            },
+            "time": "2024-01-17T02:02:14+00:00"
         },
         {
             "name": "nesbot/carbon",
