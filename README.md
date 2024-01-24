@@ -2,6 +2,25 @@
 
 # NAYKEL Web Application
 
+### Course Table ERD
+
+```mermaid
+erDiagram
+    COURSE {
+        int id
+        string name
+        string code
+        longText description
+        string image
+        string status
+        int price
+        boolean is_free
+        dateTime published_at
+        dateTime reviewed_at
+        json extra_data
+    }
+```
+
 ### Edit Event Sequence Diagram
 
 This diagram shows the sequence of events when the user selects a course to `edit` from the table view.
