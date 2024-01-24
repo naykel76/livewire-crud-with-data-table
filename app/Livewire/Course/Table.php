@@ -4,9 +4,11 @@ namespace App\Livewire\Course;
 
 use App\Traits\Sortable;
 use App\Models\Course;
+use Livewire\Attributes\On;
 use Livewire\Component;
 use Livewire\WithPagination;
 
+#[On('saved')]
 class Table extends Component
 {
     use WithPagination;

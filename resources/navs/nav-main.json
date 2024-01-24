@@ -1,20 +1,14 @@
 {
-  "main": {
-    "links": [
-      {
-        "name": "Home",
-        "route_name": "home",
-        "exclude_route": true
-      }
-    ]
-  },
-  "footer": {
-    "links": [
-      {
-        "name": "Home",
-        "route_name": "home",
-        "exclude_route": true
-      }
-    ]
-  }
+    "main": {
+        "links": []
+    },
+    "footer": {
+        "links": [
+            {
+                "name": "Home",
+                "route_name": "home",
+                "exclude_route": true
+            }
+        ]
+    }
 }

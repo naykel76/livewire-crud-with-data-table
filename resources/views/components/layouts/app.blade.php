@@ -2,7 +2,7 @@
 
     @includeFirst(['components.layouts.partials.navbar', 'gotime::components.layouts.partials.navbar'])
 
-    <main {{ $attributes->merge(['class' => 'container py-2']) }}>
+    <main {{ $attributes->merge(['class' => 'container py-2' . ($mainClasses ? ' container-md py-5' : '')]) }}>
         {{ $slot }}
     </main>
 

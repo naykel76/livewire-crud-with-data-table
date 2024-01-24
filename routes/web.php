@@ -1,30 +1,18 @@
 <?php
 
+use App\Livewire\Course\CreateEdit as CourseCreateEdit;
 use Illuminate\Support\Facades\Route;
-use Naykel\Gotime\RouteBuilder;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-*/
 
 Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
-(new RouteBuilder('nav-main'))->create();
+Route::get('/dev', function () {
+    return view('pages.dev');
+})->name('dev');
 
-/*
-|--------------------------------------------------------------------------
-| Admin Routes
-|--------------------------------------------------------------------------
-|
-*/
-
-// (new RouteBuilder('nav-admin'))->create();
-
-// Route::middleware(['role:super|admin', 'auth'])->prefix('admin')->name('admin')->group(function () {
-//     Route::view('/', 'gotime::admin.dashboard'); // admin dashboard
-// });
+// admin has been included to create a more realistic nested route prefix
+Route::prefix('admin')->name('admin')->group(function () {
+    Route::get('/courses/{course}/edit', CourseCreateEdit::class)->name('.course.edit');
+    Route::get('/courses/create', CourseCreateEdit::class)->name('.course.create');
+});
