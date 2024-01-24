@@ -2,8 +2,8 @@
 
     @includeFirst(['components.layouts.partials.navbar', 'gotime::components.layouts.partials.navbar'])
 
-    <div class="container markdown">
+    <main {{ $attributes->merge(['class' => 'container py-2']) }}>
         {{ $slot }}
-    </div>
+    </main>
 
 </x-gotime-layouts.base>

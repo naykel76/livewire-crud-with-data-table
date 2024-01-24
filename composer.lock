@@ -2125,12 +2125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/naykel76/gotime.git",
-                "reference": "2a8bf49c16379bee72f5cac2823e0fd8399bcdb0"
+                "reference": "fa75914fe79c669503328a98a43857a48aef7a00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/naykel76/gotime/zipball/2a8bf49c16379bee72f5cac2823e0fd8399bcdb0",
-                "reference": "2a8bf49c16379bee72f5cac2823e0fd8399bcdb0",
+                "url": "https://api.github.com/repos/naykel76/gotime/zipball/fa75914fe79c669503328a98a43857a48aef7a00",
+                "reference": "fa75914fe79c669503328a98a43857a48aef7a00",
                 "shasum": ""
             },
             "require": {
@@ -2181,7 +2181,7 @@
                 "issues": "https://github.com/naykel76/gotime/issues",
                 "source": "https://github.com/naykel76/gotime/tree/master"
             },
-            "time": "2024-01-22T23:45:02+00:00"
+            "time": "2024-01-24T03:38:07+00:00"
         },
         {
             "name": "nesbot/carbon",

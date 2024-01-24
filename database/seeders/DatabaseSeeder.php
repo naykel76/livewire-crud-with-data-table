@@ -11,7 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
 
         \App\Models\Course::factory()->create([
             'name' => 'Introduction to Computer Science',
@@ -43,5 +42,7 @@ class DatabaseSeeder extends Seeder
             'price' => 187.50,
             'published_at' => now(),
         ]);
+
+        \App\Models\Course::factory(92)->create();
     }
 }
