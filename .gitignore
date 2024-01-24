@@ -19,3 +19,6 @@ yarn-error.log
 /.vscode
 
 nk_tasks.md
+dev.blade.php
+component1.php
+component2.php
