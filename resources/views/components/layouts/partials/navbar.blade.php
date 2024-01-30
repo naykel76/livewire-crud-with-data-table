@@ -1,5 +1,5 @@
 <div class="navbar bdr-b">
-    <div class="container">
+    <div class="container-xxl">
         <div class="logo">
             <a href="{{ url('/') }}"><img src="{{ config('naykel.logo.path') }}" alt="{{ config('app.name') }}"
                     height="{{ config('naykel.logo.height') }}" width="{{ config('naykel.logo.width') }}"></a>

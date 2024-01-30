@@ -7,6 +7,12 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+// redirect for easy dev
+Route::get('/', function () {
+    return redirect('admin/courses/2/edit');
+})->name('home');
+
+
 Route::get('/dev', function () {
     return view('pages.dev');
 })->name('dev');
